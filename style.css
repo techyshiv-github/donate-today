@@ -5,9 +5,46 @@
 
 }
 
-body {
-    font-family: 'Inter', sans-serif;
+h1 {
+    font-family: 'Inter',
+        sans-serif;
+    font-style: normal;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Inter',
+        sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Inter',
+        sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+p {
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 15px;
+}
+
+body {
+
     overflow-x: hidden;
 }
 
@@ -18,6 +55,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
+    color: white;
+
 
 }
 
@@ -28,7 +67,6 @@ body {
 }
 
 .hero-content {
-
     width: 60%;
     height: 50%;
     display: flex;
@@ -38,30 +76,9 @@ body {
     padding-left: 20%;
     padding-top: 5%;
     padding-top: 10%;
-
 }
 
-.hero-content h1 {
-    font-family: 'Inter',
-        sans-serif;
-    font-style: normal;
-    font-size: 65px;
-    font-weight: 700;
-    text-align: center;
-    color: white;
-
-}
-
-.hero-content p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    margin-top: 20px;
-}
-
-.hero-content button {
+.donate-now {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -72,5 +89,124 @@ body {
     border-radius: 5px;
     padding: 12px 16px;
     margin-top: 30px;
+    cursor: pointer;
 
+}
+
+.donation-form-section {
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.donation-description h2 {
+    color: black;
+
+}
+
+.donation-description p {
+    color: black;
+}
+
+.donation-money {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 100px;
+}
+
+.donation-money button {
+    background-color: #FAFAFA;
+    border-style: none;
+    border-radius: 5px;
+    padding: 40px;
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #707070;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#default-taka {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+
+}
+
+input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 1px solid gray;
+    margin-top: 50px;
+
+}
+
+.donation-plan-section {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+
+}
+
+.donation-description {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-top: 10%;
+}
+
+.donation-plan-description {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 20%;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #ff5959;
+    padding: 40px 20px;
+    margin: 10px;
+    border-radius: 5px;
+
+
+}
+
+.card-meta p {
+    font-size: 12px;
+}
+
+.card-plan {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#food {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+#shelter {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#education {
+    background-color: rgba(243, 214, 88, 0.767);
 }
