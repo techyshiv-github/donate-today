@@ -137,7 +137,7 @@ body {
 
 }
 
-input {
+.other-amount {
     display: block;
     width: 100%;
     text-align: center;
@@ -240,4 +240,58 @@ input {
 
 .donation-plan-section {
     margin-bottom: 200px;
+}
+
+.get-update-section {
+    width: 100%;
+    height: 400px;
+    padding-left: 20%;
+    margin-top: 100px;
+}
+
+.get-update-description {
+    width: 60%;
+
+}
+
+.email-capture {
+    background-color: rgba(255, 102, 0, 0.574);
+    width: 50%;
+    padding: 5% 4%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.email-capture-box {
+    background-color: rgba(128, 128, 128, 0.47);
+    color: rgba(0, 0, 0, 0.928);
+    border: none;
+    width: 300px;
+    height: 50px;
+
+
+}
+
+footer p {
+
+    color: white;
+}
+
+footer h4 {
+    font-size: 24px;
+    font-family: 'inter';
+    color: #FF5959;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    background-color: black;
 }
