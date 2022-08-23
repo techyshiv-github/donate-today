@@ -96,6 +96,7 @@ body {
 .donation-form-section {
     width: 100%;
     height: 600px;
+
 }
 
 
@@ -209,4 +210,34 @@ input {
 
 #education {
     background-color: rgba(243, 214, 88, 0.767);
+}
+
+.lives-depend-section {
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    padding-left: 3%;
+
+}
+
+.leftside {
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.rightside {
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.rightside img {
+    width: 90%;
+}
+
+.donation-plan-section {
+    margin-bottom: 200px;
 }
