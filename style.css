@@ -262,6 +262,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+
 }
 
 .email-capture-box {
@@ -271,8 +272,15 @@ body {
     width: 320px;
     height: 48px;
     font-size: 18px;
+    flex: 1;
+
+
 
 }
+
+
+
+
 
 footer p {
 
